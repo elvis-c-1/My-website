@@ -1,0 +1,57 @@
+body {
+  background-color: lightslategray;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: ghostwhite;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Make nav a flex container */
+nav {
+  display: flex;
+  justify-content: center;   /* center all buttons */
+  gap: 15px;                 /* equal spacing between buttons */
+  flex-wrap: wrap;           /* allows wrapping on small screens */
+  margin-top: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  white-space: nowrap;
+  transition: 0.3s;          /* smooth hover effect */
+}
+
+/* TikTok */
+#tiktok {
+  background: black;
+}
+
+/* Instagram */
+#instagram {
+  background: linear-gradient(45deg, yellow, orange, pink, purple, indigo);
+}
+
+/* Facebook */
+#facebook {
+  background: blue;
+}
+
+/* Twitter */
+#twitter {
+  background: skyblue;
+}
+
+/* Hover effect */
+a:hover {
+  opacity: 0.8;
+  transform: scale(1.05);    /* slightly grow on hover */
+}
